@@ -1,0 +1,13 @@
+<video autoplay controls loop width="640" height="420">
+  <source src="<%= url "/media/#{page.meta.id}/movie.mp4" %>" type="video/mp4">
+  <source src="<%= url "/media/#{page.meta.id}/movie.webm" %>" type="video/webm">
+
+  <% tracks_for_page(page).each do |track| %>
+    <track src="<%= url track.src %>"
+      kind="subtitle"
+      srclang="pt-BR"
+      label="<%= track.label %>"
+      <%= 'default' if track.default? %>
+    >
+  <% end %>
+</video>

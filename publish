@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -e
+HOST=http://sublime.simplesideias.com.br troy export
+find . -name .DS_Store -exec rm {} \;
+rsync --delete -vr --partial --progress -e ssh public deploy@simplesideias.com.br:/var/www/sublime-text-screencasts/

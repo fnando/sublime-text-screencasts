@@ -1,0 +1,92 @@
+//= require_self
+//= require_tree .
+
+* {
+  margin: 0;
+  padding: 0;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+a {
+  color: #cc440e;
+}
+
+::-webkit-cue {
+  color: #fff;
+  font-size: 19px;
+}
+
+::cue {
+  background: rgba(0, 0, 0, .7);
+  color: #fff;
+  font-size: 19px;
+}
+
+html,
+body {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+html {
+  background: #e0e0e0;
+}
+
+body {
+  font-size: 19px;
+  padding: 80px;
+}
+
+.page {
+  width: 640px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 25px;
+}
+
+video {
+  width: 640px;
+  background: #313441;
+  display: inline-block;
+  border: 10px solid #fff;
+}
+
+#disqus_thread {
+  margin-top: 25px;
+}
+
+.screencasts h1 a {
+  color: #202020;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.screencasts p a {
+  font-size: 16px;
+  color: #888;
+}
+
+article + article {
+  margin-top: 25px;
+}
+
+.firefox-warning {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 20px;
+  background: #bf4e3f;
+  color: #fff;
+  text-align: center;
+  box-shadow: 2px 2px 3px #a34235;
+}
