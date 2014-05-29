@@ -14,9 +14,13 @@ as próximas ocorrências
 Altere todas as ocorrências de uma só vez!
 
 4
-00:00:18.000 --> 00:00:21.000
-Pressione ESC para desfazer a seleção
+00:00:24.000 --> 00:00:28.000
+Pressione ESC para desfazer os múltiplos cursores
 
 5
-00:00:24.000 --> 00:00:28.000
+00:00:30.000 --> 00:00:37.000
+Selecione todas as ocorrências com ALT+F3
+
+6
+00:00:38.000 --> 00:00:45.000
 Use CTRL+U para desfazer a última seleção
