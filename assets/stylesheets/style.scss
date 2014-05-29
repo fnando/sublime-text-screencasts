@@ -90,3 +90,19 @@ article + article {
   text-align: center;
   box-shadow: 2px 2px 3px #a34235;
 }
+
+.keyboard-shortcuts {
+  h2 { display: none; }
+  ul { list-style: none; overflow: hidden; }
+  li { float: left; width: 33%; color: #666; }
+  kbd { color: #202020; }
+
+  background: #ccc;
+  margin: 15px 0 30px 0;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.mac .keyboard-shortcuts {
+  display: block;
+}

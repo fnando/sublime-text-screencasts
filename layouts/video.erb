@@ -25,6 +25,60 @@
       <%= partial :video, page: page, tracks: tracks_for_page(page) %>
       <script><%= inline_file('public/javascripts/script.js') %></script>
 
+      <section class="keyboard-shortcuts" hidden>
+        <h2>Teclas de atalho</h2>
+
+        <ul>
+          <li>
+            <kbd>&#x2318;:</kbd> command
+          </li>
+
+          <li>
+            <kbd>&#x2325;:</kbd> option
+          </li>
+
+          <li>
+            <kbd>&#x21E7;:</kbd> shift
+          </li>
+
+          <li>
+            <kbd>&#x21E5;:</kbd> tab
+          </li>
+
+          <li>
+            <kbd>&#x2303;:</kbd> control
+          </li>
+
+          <li>
+            <kbd>&#x2326;:</kbd> delete
+          </li>
+
+          <li>
+            <kbd>&#x21A9;:</kbd> return
+          </li>
+
+          <li>
+            <kbd>&#x238B;:</kbd> esc
+          </li>
+
+          <li>
+            <kbd>&#x2191;:</kbd> arrow up
+          </li>
+
+          <li>
+            <kbd>&#x2192;:</kbd> arrow right
+          </li>
+
+          <li>
+            <kbd>&#x2193;:</kbd> arrow down
+          </li>
+
+          <li>
+            <kbd>&#x2190;:</kbd> arrow left
+          </li>
+        </ul>
+      </section>
+
       <%= content %>
 
       <div id="disqus_thread"></div>

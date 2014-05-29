@@ -9,6 +9,10 @@
   var platform = navigator.platform;
   var positions, position;
 
+  if (platform.match(/mac/i)) {
+    document.documentElement.classList.add('mac');
+  }
+
   // Also detect crappy Firefox.
   if (navigator.userAgent.match(/Firefox\/(\d+)/) && parseInt(RegExp.$1, 10) < 31) {
     var element = document.createElement('div');
