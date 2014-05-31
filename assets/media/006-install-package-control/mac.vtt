@@ -1,0 +1,26 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:09.000
+O Package Control permite gerenciar
+extensões do seu Sublime Text.
+
+2
+00:00:10.000 --> 00:00:15.000
+Para instalar o Package Control, acesse
+o site http://sublime.wbond.net.
+
+3
+00:00:16.000 --> 00:00:25.000
+Copie o trecho de código para a versão do
+Sublime Text que você está usando.
+
+4
+00:00:26.000 --> 00:00:34.000
+Abra o console do Sublime Text com o atalho ⌃+`
+e execute o script de instalação.
+
+5
+00:00:36.000 --> 00:00:45.000
+Agora, inicie o Command Palette com o atalho ⌘+⇧+P
+e digite "Package" para ver os comandos disponíveis.
